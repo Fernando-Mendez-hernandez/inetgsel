@@ -1,0 +1,283 @@
+
+
+.needs-validation {
+  gap: 5rem;
+  width: 95%; 
+  max-width: 90%; 
+  margin: 5rem auto;
+  padding: 3rem;
+  background-color: #ffffff;
+  border-radius: .5rem;
+  box-shadow: 0 0 10px rgba(21, 65, 199, 0.8);
+  justify-content: center;
+}
+
+ .cur{
+  margin: 10px 20px;
+  text-align:left;
+  font-family: cursive;
+  font-size: 3rem;
+  color: #000000;
+}
+.mensaje1{
+  width: 90%;
+  height: 200px;
+  padding: 10px 10px;
+  margin-bottom: 10px;
+  display: inline-block;
+}
+
+ 
+input[type="text"],
+input[type="email"] {
+  font-size: 1.8rem;
+  width: 99%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  border-color: #0400ff;
+  border-style:dashed;
+}
+
+.form-control{
+  font-size: 1.8rem;
+}
+
+
+.button,
+.reset-button {
+  width: 42.5%;
+  padding: 12px 10px;
+  margin: 2rem;
+  background-color: #000000;
+  color: #fff;
+  border: solid #000000;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+  display: inline-block;
+ 
+
+}
+
+.button:hover {
+  background-color: #78afe9;
+  transform: scale(1.05);
+}
+
+.reset-button:hover {
+  background-color: #2913f3;
+  transform: scale(1.05);
+}
+
+
+input[type="text"],
+input[type="email"] {
+  transition: transform 0.3s ease;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus {
+  transform: scale(1.05);
+}
+
+textarea{
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  border-color: #0400ff;
+  border-style:dashed;
+}
+
+.textarea{
+  transition: transform 0.3s ease;
+}
+
+.textarea{
+  transform: scale(1.05);
+}
+
+.ubi_mapa{
+  display: grid;
+  margin: auto ;
+  padding: 5rem;
+  
+}
+
+.t_formulario{
+  padding: 3rem auto;
+  justify-content: center;
+  text-align: center;
+  font-size: 3rem;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.t_maps{
+  padding: 3rem auto;
+  justify-content: center;
+  text-align: center;
+  font-size: 3rem;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.horario{
+ 
+  background-color: #e7e7e7;
+  text-align: center;
+  font-size: 3.5rem;
+  border-color: #000000;
+  border-style: double;
+  color: #000000;
+  
+}
+
+.horario-content{
+  background-color: #e7e7e7;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr)auto;
+justify-items:center;
+gap: 2rem;
+
+}
+.jsjs{
+  display: grid;
+  place-items: center;
+}
+.dias{
+  font-size: 1.7rem;
+  color: #000000;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.hora {
+  font-size: 1.5rem;
+  color: #000000;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.integ {
+  font-size: 1.5rem;
+  color: #000000;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.invita{
+  font-size: 2rem;
+  color: #000000;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+.js1{
+display: grid;
+place-items: center;
+
+}
+
+#capa {
+	display:none;
+	position:absolute;
+	top:0;
+	left:0;
+	width:100%;
+	height:100%;
+	background:rgba(0, 0, 0, 0.5);
+}
+ 
+#capa>div:first-child {
+	margin:0;
+	position:absolute;
+	top:50%;
+	left:50%;
+	transform:translate(-50%,-50%);
+ 
+	width:60%;
+  max-width: 59%;
+	border:1px solid #ebebeb;
+	padding:5px;
+	background:rgba(255, 255, 255, 1);
+}
+ 
+.title {
+  font-size: 2rem;
+	background-color: #eee;
+	padding: 5px;
+	text-align: center;
+	font-weight:bold;
+}
+.text {
+  font-size: 1.8rem;
+	text-align:left;
+	padding: 10px;
+}
+.buttons {
+	text-align: right;
+	border-top: 1px solid #eee;
+	padding: 5px 10px;
+}
+ 
+.button {
+	font-family:Arial;
+	font-size:9pt;
+}
+.valid-tooltip{
+  font-size: 1.5rem;
+}
+
+.invalidCheck3{
+  font-size: 1.5rem;
+}
+
+.form-check-label{
+  font-size: 2rem;
+}
+
+.form-check-input{
+  font-size: 2rem;
+}
+@media (max-width: 768px) {
+  .formulario {
+      width: 90%;
+      max-width: 100%;
+  }
+
+  .t_maps{
+    font-size: 2.5rem;
+  }
+  .t_formulario{
+    font-size: 2.5rem;
+  }
+  .horario{
+    font-size: 2.5rem;
+  }
+  .invita{
+    font-size: 2rem;
+  }
+  .form-check-label{
+    font-size: 1.5rem;
+  }
+
+}
+
+/* Responsive Styles for 468px or smaller screens */
+@media (max-width: 468px) {
+  .formulario {
+      width: 90%;
+  }
+.t_maps{
+  font-size: 2.1rem;
+}
+.t_formulario{
+  font-size: 2.3rem;
+}
+  .horario{
+    font-size: 2rem;
+  }
+  .invita{
+    font-size: 1.5rem;
+  }
+  .form-check-label{
+    font-size: 1.3rem;
+  }
+
+}
